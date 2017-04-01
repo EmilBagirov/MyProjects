@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Users@localhost" uuid="c2796a3c-2571-4e76-a9ce-18e333f27150">
+      <database-info product="PostgreSQL" version="9.6rc1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <resolve-scope>Users:postgres,public</resolve-scope>
+    </data-source>
+    <data-source name="nim@192.168.200.26" uuid="e1e34b12-4923-45df-9497-ef07009be861">
+      <database-info product="PostgreSQL" version="9.3.12" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>readonly</user-name>
+      <resolve-scope>nim:public,readonly</resolve-scope>
+    </data-source>
+  </component>
+</project>
